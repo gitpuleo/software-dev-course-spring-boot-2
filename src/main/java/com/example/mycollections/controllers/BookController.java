@@ -11,9 +11,9 @@ import java.util.List;
 public class BookController {
 
     private final List<Book> books = new ArrayList<>() {{
-        add(new Book("The Great Gatsby", "F. Scott Fitzgerald", 1925, 180));
-        add(new Book("To Kill a Mockingbird", "Harper Lee", 1960, 281));
-        add(new Book("1984", "George Orwell", 1949, 328));
+        add(new Book("Game of Thrones", "George Rail Road Martin", 1996, 830));
+        add(new Book("Between Two Fires", "Christopher Buehlman", 2012, 400));
+        add(new Book("God of Small Things", "Arundhati Roy", 2000,300));
     }};
 
     @GetMapping("/json")
